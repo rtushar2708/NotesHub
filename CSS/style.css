@@ -1,0 +1,146 @@
+body{
+    background-color: #e2e2e2;
+}
+.nav-banner {
+    color: #fff;
+    font-weight: bold;
+}
+
+.custom-nav .custom-nav-item a {
+    color: #fff !important;
+}
+
+.custom-nav-item:hover {
+    background-color: blue;
+    /* border: solid blue ; */
+    border-radius: 10px;
+}
+
+.vid-parent {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.vid-mar-rem {
+    margin: 0;
+    padding: 0;
+}
+
+.vid-overlay {
+    position: absolute;
+    background-color: rgb(63, 69, 75);
+    top: 0;
+    left: 0;
+    height: 801px;
+    width: 1519px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.vid-content {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+
+
+.palet {
+    display: flex;
+}
+
+
+.col {
+    width: 25%;
+    background-color: rgb(237, 65, 65);
+    color: #fff;
+    height: 25%;
+    margin-right: 5px;
+}
+
+.col1 {
+    width: 25%;
+    background-color: #b40909;
+    color: black;
+    height: 25%;
+    margin-right: 5px;
+}
+.col2 {
+    width: 25%;
+    background-color: #b40909;
+    color: black;
+    height: 25%;
+    margin-right: 5px;
+}
+
+.palet-content1 {
+    padding-top: 75px;
+    text-align: center;
+    /* color: #fff; */
+}
+
+.palet-content2 {
+    padding: 40px 50px;
+    text-align: center;
+    /* color: #fff; */
+    /* max-width: 250px; */
+    /* padding-left: 70px; */
+}
+
+.palet-content1::after {
+    background-color: #fff;
+}
+
+.custom-img{
+
+    width: 1519px;
+    height: 1000px;
+    border: none;
+}
+
+.custom-form{
+    margin-right: 25px;
+}
+
+@media screen and (min-width:0px) and (max-width:700px) {
+
+    .my-content,
+    .stripe {
+        display: none;
+    }
+
+    .custom-nav,
+    .custom-nav-item a {
+        padding: 10px 20px;
+        /* background-color: #225470; */
+    }
+
+    .nav-sm {
+        background-color: black;
+        opacity: 0.8;
+    }
+
+    .vid-overlay {
+        height: 50%;
+    }
+
+    .palet {
+        display: block;
+    }
+
+    .col,
+    .col1, .col2 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .col1{
+        margin-top: 60px;
+    }
+}
